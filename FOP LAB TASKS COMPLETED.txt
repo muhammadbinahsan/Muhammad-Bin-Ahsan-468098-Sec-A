@@ -1,0 +1,78 @@
+TASK 1
+
+using namespace std;
+int main()
+{
+int b;
+int a;
+
+	for(int a = 0; a<10;a++) {
+
+    	
+    b=a+b;
+   
+	
+
+}
+cout<<"the sum of first 10 natural numbers is"  << b <<endl;
+}
+
+
+
+TASK 2
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a,b,s;
+	cout<<"ENTER ANY NUMBER BSDK"<<endl;
+	cin>>a;
+	for( s=1; s<=10; s++) {
+	
+	b=s*a;
+	cout<<s<<'x'<<a<<'='<<b<<endl;
+}
+}
+
+
+
+TASK 3
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a,s,factorial;
+	cout<<"ENTER ANY NUMBER FOR FACTORIAL"<<endl;
+	cin>>a;
+	s=a-1;
+	factorial=a;
+	cout<<a<<" x ";
+	while (s<a && s>1) {
+		factorial=factorial*s;
+		cout<<s<<" x ";
+				s=s-1;
+
+	}
+	cout<<" 1 = "<<factorial;
+}
+
+
+
+TASK 4
+#include<iostream>
+using namespace std;
+
+int main(){
+		int a, sum, b, x;
+	cout<<"Enter Number 1: ";
+	cin>>a;
+	cout<<"Enter Number 2: ";
+	cin>>b;
+	cout<<a<<", "<<b<<", ";
+	for(x=0; x<6; x++){
+	sum=a+b;
+	a=b;
+	b=sum;
+	cout<<sum<<", ";
+	}
+}
